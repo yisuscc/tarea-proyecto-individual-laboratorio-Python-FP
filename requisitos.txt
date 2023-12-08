@@ -1,0 +1,29 @@
+En los proyectos individuales los requisitos a cumplir serán la implementación de 10 funciones del tipo que se indican, y que deben ser propuestas en el README de Github e implementadas siguiendo este orden:
+
+
+
+
+X, Y deben ser sustitudos por nombres de atributos acordes a cada dataset, y se debe intentar usar el máximo de atributos posibles:
+
+
+
+
+- lee_datos:
+
+- seleccionaX: Recibe como parámetro un valor (puede ser del tipo que queráis) y devuelve el conjunto de registros que cumplen que el atributo X tiene un valor igual/mayor/menor a ese valor del parámetro
+
+- seleccionaXY:  Igual que la anterior pero el filtro debe cumplir dos restricciones, por tanto debe estar formado por una condición and/or
+
+- paresXY: Devuelve un listado de tuplas con los valores de los atributos X,Y
+
+- conteoX: Recibe como parámetro un valor (puede ser del tipo que queráis) y devuelve el número de registros que cumplen que el atributo X tiene un valor igual/mayor/menor a ese valor del parámetro
+
+- registroMasX:  Devuelve el registro con mayor valor de X
+
+- ordenarX: Devuelve la lista de registros ordenados según el valor del atributo X
+
+- ordenarFecha: Devuelve la lista de registros ordenados según el valor de la fecha
+
+- agrupaXFecha: Devuelve un diccionario que relaciona el número de  registros de un mes o un año en concreto (por ej: cuenta total de aplicaciones que se generan en cada mes)
+
+- agrupaXCategoria: Devuelve un diccionario que calcula el número de registros asociados a una categoría (por ej: cuenta total de aplicaciones que pertenecen a cada categoría (Juegos,Productividad, etc.) )
